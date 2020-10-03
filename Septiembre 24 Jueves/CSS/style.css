@@ -1,0 +1,32 @@
+.panel {
+    border-radius: 20px ;
+    border-left: 2px solid rgb(73, 73, 194);
+    padding: 1rem;
+    background-color: #efefef;
+  }
+  
+  .modal {
+    background-color: rgba(0, 0, 0, 0.493);
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    z-index: 1000;
+    width: 80vw;
+    height: 80vh;
+    transform: translate(-50%,-50%);
+    display: none;
+  }
+  
+  
+  .modal-close {
+    color: red;
+  }
+  
+  .modal-content {
+    position: relative;
+  
+    background-color: white;
+    margin: 20vh auto;
+    padding: 1rem;
+    border-radius: 15px 0;
+  }

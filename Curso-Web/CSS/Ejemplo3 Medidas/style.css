@@ -1,0 +1,52 @@
+html{
+    font-size: 70px;
+}
+
+body{
+    margin: 0;
+}
+#primero{
+    font-size: 60px;
+}
+
+#primero h1{
+    font-size: 1rem;
+}
+
+#primero h2{
+    font-size: 1em; /* 1rem = 36px */
+}
+
+#segundo{
+    font-size: 20px; /* 1em = 70px*/
+}
+#segundo h1{
+    font-size: 1rem;
+}
+
+#segundo h2{
+    font-size: 2em; /* 1em = 20px*/
+}
+p{
+    width: 20ch;
+    background:  crimson;
+    color: white;
+}
+
+article{
+    height: 200px;
+    margin:  8px 0;
+    background: deeppink;
+}
+
+.col-20{
+    width: 20%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-100{
+    width: 100%;
+}

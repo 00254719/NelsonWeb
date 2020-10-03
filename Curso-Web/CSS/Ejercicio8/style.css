@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "CustomFont";
+    src: url("./Fuentes/Rowdies-Regular.ttf")
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap');
+
+p{
+    text-align: justify;
+}
+
+#primero{
+    font-family: 'Suwannaphum', cursive, sans-serif;
+}
+
+#segundo{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tercero{
+    font-family: 'Rowdies', cursive, sans-serif;
+}

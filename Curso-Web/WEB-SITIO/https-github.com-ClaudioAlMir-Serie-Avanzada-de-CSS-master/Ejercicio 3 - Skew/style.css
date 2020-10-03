@@ -1,0 +1,48 @@
+/*
+File Created for 
+Rimorsoft Online | rimorsoft.com
+*/
+/* 
+    Created on : 25/09/2016, 01:27:12 PM
+    Author     : Italo Morales - @italomoralesf
+*/
+
+body{
+    margin: 0px;
+    background: #d1d1d1;
+}
+
+.menu-main{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+}
+
+.menu-main a{
+    flex: 1;
+    font-family: arial;
+    height: 45px;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;    
+    justify-content: center;
+    align-items: center;
+    background: #3b5998;
+    margin: 0px 5px;
+    transform: skew(-45deg);
+}
+
+.menu-main a span{
+    transform: skew(45deg);
+}
+
+.menu-main a:hover{
+    background-color: #29487d;
+}
+
+.menu-main a.active{
+    background-color: #29487d;
+}

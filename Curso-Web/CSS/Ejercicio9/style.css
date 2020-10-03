@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+section{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 36px;
+}
+
+section:nth-child(2n){
+    background: lightblue;
+}
+
+section:nth-child(2n)>div{
+    background: lightcoral;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 4px 0;
+    background: wheat;
+    border: 1px solid black;
+}
+
+#relativo{
+    position: relative;
+    left: 250px;
+    top: -75px;
+}
+
+#absoluto{
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+#pegajoso{
+    background: indigo;
+
+    position: sticky;
+    position: -webkit-sticky;
+
+    top: 0;
+    left: 0;
+}
+
+#fijo{
+    position: fixed;
+
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,53 @@
+.custom-button{
+    padding: 8px 16px;
+    background: transparent;
+
+    color: darkred;
+    border:  1px darkred solid;
+    transition: 250ms ease-in-out all;
+}
+
+.custom-button:hover{
+    background: darkred;
+    color: white;
+    
+}
+
+section > article{
+    width: 200px;
+    height: 200px;
+
+    margin: 16px 0;
+    background: teal;
+}
+
+#first-last > article:first-child{
+    background: steelblue;
+}
+
+#first-last > article:last-child{
+    background: yellowgreen;
+}
+
+#nth > article:nth-child(2n){
+    background: royalblue;
+}
+
+#nth > article:nth-child(3n){
+    background: black;
+}
+input{
+        padding: 16px;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.5em;
+        display: block;
+        transition: 250ms ease-in-out all;
+
+}
+
+input:focus{
+    outline: none;
+    border-radius: 15px;
+    transition: 250ms ease-in-out all;
+}
